@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOEPI Gemini</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+
+        <h1>DOEPI Gemini</h1>
+
+        <div class="menu">
+
+            <div class="buscar-diario menu-item">
+                <button onclick="buscarDiario()" class="menu-item-button">BUSCAR DIÁRIOS MAIS RECENTES</button>
+                <span class="material-symbols-outlined">wifi_find</span>
+            </div>
+            <div class="extrair-decretos menu-item">
+                <button onclick="extrair()" class="menu-item-button">EXTRAIR DECRETOS DOS DIÁRIOS</button>
+                <span class="material-symbols-outlined">file_export</span>
+            </div>
+            <div class="extrair-nomeacoes menu-item">
+                <button onclick="extrair()" class="menu-item-button">EXTRAIR NOMEAÇÕES E EXONERAÇÕES DOS DIÁRIOS</button>
+                <span class="material-symbols-outlined">file_export</span>
+            </div>
+            <div class="insights-decretos menu-item">
+                <button onclick="insights()" class="menu-item-button">OBTER INSIGHTS DOS DECRETOS EXTRAÍDOS</button>
+                <span class="material-symbols-outlined">lightbulb_2</span>
+            </div>
+            <div class="insights-nomeacoes menu-item">
+                <button onclick="insights()" class="menu-item-button">OBTER INSIGHTS DAS NOMEAÇÕES E EXONERAÇÕES EXTRAÍDAS</button>
+                <span class="material-symbols-outlined">lightbulb_2</span>
+            </div>
+            <div class="exit menu-item">
+                <button class="exit-button">exit</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../script.js"></script>
+</html>
