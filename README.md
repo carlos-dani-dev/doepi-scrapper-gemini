@@ -1,18 +1,18 @@
-🕵️‍♂️ DOEPI-Scrapper-Gemini
+# 🕵️‍♂️ DOEPI-Scrapper-Gemini
 
 Um coletor (scraper) automatizado para o Diário Oficial do Estado do Piauí (DOE-PI) com foco em extração e organização de documentos relevantes (decretos, diários oficiais, nomeações/exonerações etc.), possivelmente integrando capacidades de IA para auxiliar no processamento e análise de conteúdo.
 Este projeto foi desenvolvido para automatizar a captura e pré-processamento de documentos públicos, facilitando o uso dos dados em aplicações de busca, análise ou consulta automatizada.
 O projeto foi paralizado em Setembro de 2025, mas será continuado.
 
-🧠 Funcionalidade
+## 🧠 Funcionalidade
 
 ✔ Baixa conteúdo público do Diário Oficial do Estado do Piauí
 ✔ Organiza documentos por tipo (decretos, diários, ato administrativo, etc.)
 ✔ Possibilidade de integração com modelos de IA (como Gemini ou outro) para análise ou classificação dos textos
 ✔ Interface Python simples para automação
 
-📂 Estrutura do Repositório
-.
+## 📂 Estrutura do Repositório
+
 ├── decretos/                  # Decretos extraídos
 ├── diario/                    # Arquivos ou PDFs de diários oficiais
 ├── front/                     # Código front-end (interface de visualização?)
@@ -22,11 +22,7 @@ O projeto foi paralizado em Setembro de 2025, mas será continuado.
 ├── main.py                    # Script principal de execução
 └── readme.md                  # Documento com instruções (atualmente vazio)
 
-
-Observação: esta estrutura é baseada no que está presente no repositório e pode ser ajustada conforme novas funcionalidades forem adicionadas. 
-GitHub
-
-🚀 Instalação
+## 🚀 Instalação
 
 Clone o repositório:
 
@@ -45,7 +41,7 @@ Instale as dependências (se houver um requirements.txt):
 
 pip install -r requirements.txt
 
-▶️ Como Usar
+## ▶️ Como Usar
 🪝 1. Configurar variáveis / parâmetros
 
 Antes de rodar o scraper, ajuste as configurações no main.py ou nos scripts correspondentes para indicar:
@@ -64,9 +60,10 @@ O script principal (main.py) deve iniciar o processo de coleta de documentos, sa
 
 Se o projeto integrar algum módulo de IA (por exemplo, usando um modelo como Gemini para resumo/classificação), adicione as chaves de API necessárias e ajuste os módulos para processar os textos extraídos.
 
-🧰 Possíveis usos
+## 🧰 Possíveis usos
 
 ✅ Pesquisa automatizada no Diário Oficial
 ✅ Extração e classificação de atos administrativos
 ✅ Construção de bases de dados para análise jurídica ou de políticas públicas
 ✅ Integração com chatbots ou ferramentas de busca semântica
+
